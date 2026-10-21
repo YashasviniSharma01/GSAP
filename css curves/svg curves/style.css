@@ -1,0 +1,49 @@
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+body{
+    margin: 0;
+    background-color: #202731;
+    color: white;
+    font-family: "Prompt", sans-serif ;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px;
+}
+.pink{
+    background: #ff0066;
+}
+.curve{
+    position:absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+}
+.curve::before{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #202731;
+    transform: translate(85%, 60%);
+}
+.curve::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #ff0066;
+    transform: translate(-5%,43%);
+}
