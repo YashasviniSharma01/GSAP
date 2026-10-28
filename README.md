@@ -1,4 +1,4 @@
-# GSAP Experiments
+# GSAP 
 
 This repository is a collection of small GSAP animation demos built to explore motion design, SVG path manipulation, and ScrollTrigger effects.
 
